@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    width: 70%;  
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(153, 147, 147);
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+}
+
+#search{
+    font-size: 17px;
+    padding: 6px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.btn{
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 7px 0;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: auto;
+    margin: 0px 7px 0px 0px;
+}
+
+.background{
+     background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+     background-size: cover;
+     background-blend-mode: darken;
+}
+
+.text-big{
+    font-size: 38px;
+}
+
+.text-small{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.expbig{
+    padding: 70px 5px 20px 5px;
+}
+
+.expsmall{
+    padding: 10px 5px 70px 5px;
+    font-size: 25px;
+}
+
+.textexp{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.explore{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background: rgba(0,0,0,0.7) url('../img/campus.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.explorebg{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-icon{
+       text-align: center;
+       width: 77%;
+       margin: auto;
+       display: flex;
+}
+.contact-icon span{
+    display: block;
+}
+.contact-icon div{
+    margin: 10px ;
+    padding: 50px 50px;
+}
+.contact-icon span .fas{
+    font-size: 30px;
+    padding-bottom: 12px;
+    color: #f7327a;
+}
+
+.contact-icon .text{
+    padding-top: 6px;
+}
+.form-map{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+    width: 95%;
+    margin: auto;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+.map{
+    margin-left: 5PX;
+    width: 50%;
+    margin: auto;
+}
+.contact-form{
+    padding: 50px 30px;
+    width: 50%;
+    margin: auto;
+}
+.contact-form H1{
+    position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+    font-size: 30px;
+}
+.field{
+	width: 80%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+}
+textarea{
+	min-height: 150px;
+}
+.contact-btn{
+	width: 85%;
+	padding: 0.5rem 1rem;
+	background-color: #67c08c;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.contact-btn:hover{
+    background-color: #11b455;
+}
+
+.admin{
+    margin: 4% 2% 0% 2%;
+    box-sizing: border-box;
+    background-color: rgba(230, 230, 230, 0.6);
+    box-shadow: 3px 3px 20px 3px rgb(153, 147, 147);;
+}
+
+.admin-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.admin-imgs{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+
+.adminimg{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 20px 0px;
+    width: 29%;
+    margin: auto;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background-color: rgb(233, 227, 220);
+}
+
+.adminimg:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 20px 3px rgb(153, 147, 147);
+}   
+
+.nameadmin{
+    padding-top: 30px;
+}
+
+.adminimg img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
+
+.fa {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-left: 5px;
+  }
+
+
+/*-------------------------------Footer--------------------------------*/
+
+.reach{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.reach2 {
+    width: 89px;
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.wp{
+    width: 75px;
+}
+
+.yt {
+   
+    width: 100px;
+}
+
+
+
+.text-center {
+    text-align: center;
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+    font-family: sans-serif;
+}
+.text-footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: white;
+}
